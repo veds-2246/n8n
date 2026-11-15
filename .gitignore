@@ -1,0 +1,14 @@
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+
+# Runtime / database data
+data/
+postgres_data/
+n8n_data/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
